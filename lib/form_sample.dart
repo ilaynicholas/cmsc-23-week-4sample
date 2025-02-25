@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'button_sample.dart';
 import 'checkbox_sample.dart';
+import 'dropdown_sample.dart';
 import 'input_field_sample.dart';
 
 class FormSample extends StatefulWidget {
@@ -24,7 +25,8 @@ class _FormSampleState extends State<FormSample> {
         children: [
           ButtonSample(),
           InputFieldSample(),
-          CheckboxSample()
+          CheckboxSample(),
+          DropdownSample(),
         ],
       ),
     );
