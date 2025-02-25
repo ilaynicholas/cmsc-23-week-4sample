@@ -48,17 +48,17 @@ class _InputFieldSampleState extends State<InputFieldSample> {
               },
             ),
           ),
-          Padding(
-            padding: EdgeInsets.all(10),
-            child: TextField(
-              decoration: InputDecoration(
-                border: OutlineInputBorder(),
-                hintText: "Enter string",
-                labelText: "Using Controller",
-              ),
-              controller: _searchController,
-            ),
-          ),
+          // Padding(
+          //   padding: EdgeInsets.all(10),
+          //   child: TextField(
+          //     decoration: InputDecoration(
+          //       border: OutlineInputBorder(),
+          //       hintText: "Enter string",
+          //       labelText: "Using Controller",
+          //     ),
+          //     controller: _searchController,
+          //   ),
+          // ),
           ElevatedButton(
             onPressed: () {
               showDialog(
