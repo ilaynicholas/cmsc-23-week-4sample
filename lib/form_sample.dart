@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
 import 'button_sample.dart';
+import 'checkbox_sample.dart';
 import 'input_field_sample.dart';
 
 class FormSample extends StatefulWidget {
@@ -23,7 +23,8 @@ class _FormSampleState extends State<FormSample> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           ButtonSample(),
-          InputFieldSample()
+          InputFieldSample(),
+          CheckboxSample()
         ],
       ),
     );
