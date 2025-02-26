@@ -3,6 +3,7 @@ import 'button_sample.dart';
 import 'checkbox_sample.dart';
 import 'dropdown_sample.dart';
 import 'input_field_sample.dart';
+import 'multiple_checkbox_sample.dart';
 
 class FormSample extends StatefulWidget {
   const FormSample({super.key});
@@ -26,6 +27,7 @@ class _FormSampleState extends State<FormSample> {
           ButtonSample(),
           InputFieldSample(),
           CheckboxSample(),
+          MultipleCheckboxSample(),
           DropdownSample(),
         ],
       ),
