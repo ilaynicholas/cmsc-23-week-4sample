@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'button_sample.dart';
 import 'checkbox_sample.dart';
 import 'dropdown_sample.dart';
+import 'form_sample.dart';
 import 'input_field_sample.dart';
 import 'multiple_checkbox_sample.dart';
 
@@ -24,11 +25,12 @@ class _UserInteractivitySampleState extends State<UserInteractivitySample> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          ButtonSample(),
-          InputFieldSample(),
-          CheckboxSample(),
-          MultipleCheckboxSample(),
-          DropdownSample(),
+          // ButtonSample(),
+          // InputFieldSample(),
+          // CheckboxSample(),
+          // MultipleCheckboxSample(),
+          // DropdownSample(),
+          FormSample()
         ],
       ),
     );
