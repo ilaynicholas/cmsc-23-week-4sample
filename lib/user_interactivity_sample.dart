@@ -5,14 +5,14 @@ import 'dropdown_sample.dart';
 import 'input_field_sample.dart';
 import 'multiple_checkbox_sample.dart';
 
-class FormSample extends StatefulWidget {
-  const FormSample({super.key});
+class UserInteractivitySample extends StatefulWidget {
+  const UserInteractivitySample({super.key});
 
   @override
-  State<FormSample> createState() => _FormSampleState();
+  State<UserInteractivitySample> createState() => _UserInteractivitySampleState();
 }
 
-class _FormSampleState extends State<FormSample> {
+class _UserInteractivitySampleState extends State<UserInteractivitySample> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

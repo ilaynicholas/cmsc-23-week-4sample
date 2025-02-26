@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'form_sample.dart';
+import 'user_interactivity_sample.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,8 +12,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Form Sample',
-      home: FormSample(),
+      title: 'User Interactivity Sample',
+      home: UserInteractivitySample(),
     );
   }
 }
