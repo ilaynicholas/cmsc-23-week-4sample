@@ -155,11 +155,11 @@ class _FormSampleState extends State<FormSample> {
               onChanged: (String? value) {
                 // This is called when the user selects an item.
                 setState(() {
-                  _selectedMood = value!;
+                  _selectedMood = value;
                 });
               },
               items:
-                  _dropdownOptions.map<DropdownMenuItem<String>>((
+                  _dropdownOptions.map((
                     String value,
                   ) {
                     return DropdownMenuItem<String>(
